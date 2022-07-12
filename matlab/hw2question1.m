@@ -22,8 +22,8 @@ disp(x' * B)
 disp(x * y)
 disp(y * x)
 %disp(x * y') % this one too!! for incorrect dimension.
-%disp(x. * y) -not sure why this and the next have errors.
-%disp(A. * B.)
+disp(x.*y) 
+disp(A .* B)
 
 
 
