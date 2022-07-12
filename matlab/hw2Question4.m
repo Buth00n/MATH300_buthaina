@@ -1,10 +1,14 @@
 % Question 4:
-n = 20;
-sum1=0;
-k=1;
-while sum1<20
-    sum1=sum1+k;
-    k=randi(20);
+a = rand(100,1);
+Limit = 20;
+Acu = 0;
+N = 1;
+while Acu < Limit
+    Acu = Acu + a(N, 1);
+    N = N +1;
 end
-disp(sum1)
-disp(k)
+
+ave_count = sum(a)/n;
+disp(ave_count)
+
+
