@@ -1,0 +1,22 @@
+% Question 4:
+%n = 20;
+%for l = 1:n
+%sum1=0;
+%k=1;
+%while sum1<20
+  %  sum1=sum1+k;
+   % k=randi(20);
+%end
+
+
+randomSum = 0;
+isSum20 = false;
+while isSum20
+x = rand();
+
+randomSum = randomSum + x;
+if randomSum < 20
+countSum = countSum + 1;
+else
+isSum20 = true;
+end
